@@ -34,7 +34,6 @@ class ThreadServidorAdivina implements Runnable {
             // Actualizar la lista en 'lista'
             lista.setNumberList(numbers);
 
-
             // Enviar la lista modificada de vuelta al cliente
             outStream.writeObject(lista);
             outStream.flush();
